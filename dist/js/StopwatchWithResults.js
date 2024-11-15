@@ -7,7 +7,7 @@ class StopwatchWithResults extends Stopwatch {
         this.prepareActions();
     }
     prepareElements(element) {
-        this.dom.resultsList = element.querySelector('.stopwatch__results');
+        this.dom.resultsList = element.querySelector('.stopwatch__results ul');
         this.dom.addToListBtn = element.querySelector('.stopwatch__add-to-list-btn');
         this.dom.resetListBtn = element.querySelector('.stopwatch__reset-list-btn');
     }

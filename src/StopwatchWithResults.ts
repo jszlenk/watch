@@ -10,7 +10,7 @@ class StopwatchWithResults extends Stopwatch {
   }
 
   private prepareElements(element: HTMLDivElement): void {
-    this.dom.resultsList = element.querySelector('.stopwatch__results') as HTMLUListElement;
+    this.dom.resultsList = element.querySelector('.stopwatch__results ul') as HTMLUListElement;
     this.dom.addToListBtn = element.querySelector('.stopwatch__add-to-list-btn') as HTMLButtonElement;
     this.dom.resetListBtn = element.querySelector('.stopwatch__reset-list-btn') as HTMLButtonElement;
   }
